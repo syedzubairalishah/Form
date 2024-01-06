@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAH-JEE</title>
+  </head>
+  <body>
+    <form action="http://www.google.com/login.php" method="post">
+      <h1>USER REGISTRATION FORM</h1>
+      <p>
+        FIRST NAME: <input type="text" name="name" size="10" maxlength="10" required />
+      </p>
+      <p>LAST NAME: <input type="text" name="name" size="10" max="10" required /></p>
+      <p>
+        PASSWORD: <input type="password" name="pass" size="10" maxlength="10" required />
+      </p>
+      BIO:<textarea name="bio" cols="50" rows="5"></textarea>
+
+      <fieldset>
+        <legend>GENDER:</legend>
+        <input type="radio" name="gender" id="male" /><label for="male">MALE</label>
+        <br />
+        <input type="radio" name="gender" id="female" /><label for="female">FEMALE</label>
+        <br />
+        <input type="radio" name="gender" id="other" /><label for="other">OTHER</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>INTERESTS:</legend>
+        <input type="checkbox" name="music" value="music" />MUSIC
+        <br />
+        <input type="checkbox" name="sports" value="sports" />SPORTS
+        <br />
+        <input type="checkbox" name="reading" value="reading" />READING
+      </fieldset>
+      <br />
+      <label>
+        COUNTRY:
+        <select name="country">
+          <option value="united states">UNITED STATES</option>
+          <option value="canada">CANADA</option>
+          <option value="france">FRANCE</option>
+          <option value="germany">GERMANY</option>
+        </select>
+      </label>
+      <br />
+      <label>
+        PREFERRED COLORS:
+        <select name="colors" multiple="multiple" size="4">
+          <option value="red">RED</option>
+          <option value="blue">BLUE</option>
+          <option value="green">GREEN</option>
+          <option value="yellow">YELLOW</option>
+        </select>
+      </label>
+      <br />
+      <p>
+        PROFILE PICTURE:
+        <input type="file" name="picture" />
+      </p>
+      <p>
+        BIRTH-DATE:
+        <input type="date" name="date" />
+      </p>
+      <p>
+        E-MAIL:
+        <input type="text" name="mail" size="10" max="10" />
+      </p>
+      <p>
+        WEBSITE:
+        <input type="text" name="site" size="10" maxlength="10" />
+      </p>
+      <p>
+        SEARCH:
+        <input type="text" name="search" size="10" max="10" />
+      </p>
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
